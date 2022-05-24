@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie box</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d836a8a09.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<header id="header"></header>
+
+<body>
+
+    <div class="container">
+        <nav id="nav"></nav>
+
+        <section class="contacto">
+            <div class="text-contacto">
+                <p>Para hacer tu pedido para la próxima semana escirbinos por mensaje directo en instagram.
+                    Por consultas para eventos o pedidos especiales dejanos tu consulta por mail!
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/accounts/login/?next=/cookieslife.box/instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        @cookieslife.box  
+                    </a>
+                </p>
+            </div>
+            <div class="form-contacto">
+                <form name="formcontacto">
+                    <input type="text" name="name" id="name" placeholder="name" maxlength="20">
+                    <textarea name="message" id="message" maxlength="500" placeholder="mensaje" rows="10"></textarea>
+                    <div class="form-btn">
+                        <input type="reset" class="btn" value="Cancelar">
+                        <input onclick="submit()" type="submit" class="btn" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5115690846337!2d-58.42197638468774!3d-34.61651046568228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d02190e8b1%3A0x8526cc8dd9c2511c!2zQ29va2llIGJveCDimaHjgq_jg4Pjgq3jg7zjg5zjg4Pjgq_jgrnimaE!5e0!3m2!1ses!2ses!4v1653069529383!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+        <footer id="footer"></footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
